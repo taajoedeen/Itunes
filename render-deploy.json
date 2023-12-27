@@ -3,16 +3,16 @@
     {
       "type": "web",
       "name": "server",
-      "root": "server",
       "buildCommand": ["npm install", "npm run build"],
-      "startCommand": "npm start"
+      "startCommand": "npm start",
+      "root": "server"
     },
     {
       "type": "web",
       "name": "frontend",
-      "root": "client",
       "buildCommand": ["npm install", "npm run build"],
-      "startCommand": "npm start"
+      "startCommand": "npm start",
+      "root": "client"
     }
   ]
 }

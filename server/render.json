@@ -1,10 +1,4 @@
 {
-  "services": [
-    {
-      "type": "web",
-      "name": "server",
-      "buildCommand": ["npm install", "npm run build"],
-      "startCommand": "npm start"
-    }
-  ]
+  "buildCommand": ["npm install", "npm run build"],
+  "startCommand": "npm start"
 }
