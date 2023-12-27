@@ -9,7 +9,7 @@
     },
     {
       "type": "web",
-      "name": "frontend",
+      "name": "client",
       "buildCommand": ["npm install", "npm run build"],
       "startCommand": "npm start",
       "root": "client"
