@@ -1,0 +1,28 @@
+{
+  "name": "my-itunes-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run start:server",
+    "start:server": "node server/server.js",
+    "start:client": "npm --prefix client start",
+    "build": "cd client && npm run build",
+    "test": "cd client && npm test",
+    "eject": "cd client && npm run eject"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": "14.x",
+    "npm": "6.x"
+  },
+  "directories": {
+    "client": "client",
+    "server": "server"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
